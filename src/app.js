@@ -1,6 +1,7 @@
 import React from "react"
 import fortuneCookie from "fortune-cookie"
 import style from "./app.css.js"
+import logo from "./fortune_cookie.png"
 
 function getRandomInt(max) {
 	return Math.floor(Math.random() * Math.floor(max))
@@ -27,6 +28,7 @@ const App = props => {
 
 	return (
 		<div style={style.root}>
+			<img height="100" src={logo} alt="fortune cookie logo" />
 			<h1>Fortune Cookie App</h1>
 			<h3 className="mh2 ba pa4 br2 bg-light-blue">{state.fortune}</h3>
 			<button

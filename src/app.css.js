@@ -1,10 +1,11 @@
 const style = {
 	root: {
+		height: "100%",
 		backgroundColor: "purple",
 		fontFamily: "avenir",
 		color: "white",
 		display: "flex",
-		ailgnItems: "center",
+		alignItems: "center",
 		justifyContent: "center",
 		flexDirection: "column"
 	},

@@ -4,7 +4,10 @@ body {
 	padding: 0;
 }
 
-div {
+/* div {
+	height: 100%;
+} */
+.fullheight {
 	height: 100%;
 }
 
